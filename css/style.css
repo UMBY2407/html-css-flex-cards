@@ -1,0 +1,65 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#main_container {
+    padding: 20px;
+}
+
+#main_title {
+    text-align: center;
+    color: rgb(254, 1, 153);
+    margin: auto;
+}
+
+#main_text {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.team_card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(71, 0, 102);
+    margin-bottom: 30px;
+    height: 200px;
+    width: 500px;
+}
+
+.team_image {
+    object-fit: fill;
+    margin-right: 10px;
+}
+
+.personal_info {
+    display: inline-block;
+    height: 200px;
+    width: 60%px;
+}
+
+.name {
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.assignment {
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.email {
+    color: rgb(19, 227, 255);
+    margin-left: 10px;
+    margin-top: 30px;
+}
